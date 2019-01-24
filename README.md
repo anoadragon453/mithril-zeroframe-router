@@ -6,13 +6,15 @@ seamlessly on a ZeroNet website. Inspired by @krixano's
 
 ## Installation
 
-TODO. Hopefully soon just `npm install --save
-mithril-zeroframe-router`. For now just import the
-`mithril-zeroframe-router.ts` file into your repository
+TODO. Hopefully soon you can just `npm install --save
+mithril-zeroframe-router`.
+
+For now, just import the
+`mithril-zeroframe-router.ts` file into your repository.
 
 ## Usage
 
-Import the `Resolver` object from `mithril-zeroframe-router`:
+Import the `Resolver` object from `mithril-zeroframe-router`
 
 ```
 import Resolver from './mithril-zeroframe-router'
@@ -20,8 +22,8 @@ import Resolver from './mithril-zeroframe-router'
 
 Ensure you have
 [ZeroFrame](https://zeronet.io/docs/site_development/zeroframe_api_reference/)
-imported and can make calls to it. Example if using the
-`zeroframe` npm package:
+imported and can make calls to it. Here is an example if using the
+[zeroframe npm package](https://www.npmjs.com/package/zeroframe).
 
 ```
 import ZeroFrame from 'zeroframe'
